@@ -5,7 +5,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  // Property used by vue-meta to add header tags
+  head() {
+    return {
+      title: 'Event Listing',
+    }
+  },
+}
 </script>
 
 <style>
