@@ -64,4 +64,8 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+  /*
+   ** Customize the progress-bar color
+   */
+  loading: { color: '#39b982' },
 }
